@@ -1,4 +1,6 @@
-public class NhanVien {
+import java.io.Serializable;
+
+public class NhanVien implements Serializable {
     private  String id;
     private String name;
     private String address;
@@ -109,7 +111,6 @@ public class NhanVien {
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +
                 ", salary=" + salary +
-                ", status=" + status +
-                '}';
+                ", status=" + status +" , ";
     }
 }

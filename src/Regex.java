@@ -2,7 +2,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Regex {
-    public static final String nameRegex="^[A-Za-z]+$";
+    public static final String nameRegex="^\\D+$";
     public  static  final String phoneRegex="^[0-9]{10}$";
     public  static  final  String email="^[A-Za-z0-9]+[A-Za-z0-9]*(@gmail.com)$";
     public  static  final String id="^[0-9]+$";

@@ -22,7 +22,6 @@ public class NhanVienFartTime extends NhanVien{
     @Override
     public String toString() {
         return "NhanVienPartTime{" +super.toString()+
-                "hoursWord=" + soGioLam +"Tổng lương"+tongLuong()+
-                '}';
+                "hoursWord=" + soGioLam + " ," +"Tổng lương = "+tongLuong() + " }";
     }
 }
